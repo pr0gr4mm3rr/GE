@@ -9,6 +9,9 @@
 		$('.bar-title h1').html('Settings');
 		$('.bar-title span').html('');		
 		this.content();
+                $('.settings-chat').on('change', function() {
+                    $(this).css('color', $(this).val());
+                }).css('color', $('.settings-chat').val());
 		$(this.pageID).show();
 		return false;
 	},
