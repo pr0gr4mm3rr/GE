@@ -2040,7 +2040,7 @@ Statistic
 			.recordboard-row{
 				vertical-align: top; padding: 4px 5px;position: relative;list-style: none;display: block;margin: 0;
 			}
-			.record-title{background:#486c92;width:100%;}
+			.record-title{background:#486c92 !important;width:100%;}
 
 /*
 	FLEET
